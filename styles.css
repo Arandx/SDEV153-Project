@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #27fee5;
+    color: black;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.nav-img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.ph-img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-actions input[type="search"] {
+    padding: 8px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.user-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.banner {
+    height: 400px;
+    background: url('') center/cover;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.banner-content p {
+    color: white;
+    font-size: 1.2em;
+}
+
+.product-showcase {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.category-card {
+    width: 300px;
+    text-align: center;
+}
+
+.image-placeholder-container {
+    display: flex;
+    align-items: center;
+    background-color: #1a4f49;
+    padding: 10px;
+}
+
+.arrow {
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.image-placeholder {
+    flex-grow: 1;
+    height: 350px;
+    margin: 50 5px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.shirt-image {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.sweater-image {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.jacket-image {
+    background-image: url('');
+    background-position: center;
+}
+
+
+.shop-button {
+    display: inline-block;
+    background-color: #49c5b6;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.main-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.1em;
+    font-style: bold;
+}
